@@ -1,2 +1,2 @@
 # StockWise
-Stock Price Prediction and Technical Indicator Analysis
+StockWise is a stock price predictor and provides various technical indicator analysis
