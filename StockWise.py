@@ -35,7 +35,6 @@ def predict_stock_price(df):
     pipeline.fit(X_train, y_train)
     print("\n[----------------Linear Regression Predictor Results----------------]\n")
     # Use the model to make predictions for the next day
-    print(pipeline.predict(X_test))
     next_day_prediction = pipeline.predict(X_test.tail(1))
     y_pred = pipeline.predict(X_test)
     # Calculate the mean squared error
